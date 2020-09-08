@@ -1,0 +1,163 @@
+body{
+  margin: 0%;
+}
+
+
+.header1{
+  color: black;
+  padding: 1%;
+}
+.header2{
+    background-image: url(coder.jpg);
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+    padding:3%;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-weight: bold;
+    transition: 1s;
+}
+.hobbysector{
+  background-image: url(html.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 100px;
+  padding:5%;
+  font-family: 'Baloo Paaji 2', cursive;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+.hobbysector:hover{
+    color: rgb(243, 236, 231);
+    background-color: seashell;
+    filter:blur(1px) brightness(60%);
+  
+}
+.hobbysector2{
+  background-image: url(Netflix.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 100px;
+  padding:5%;
+  font-family: 'Baloo Paaji 2', cursive;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+.hobbysector2:hover{
+    background-color: seashell;
+    filter:blur(1px) brightness(60%);
+}
+.hobbysector3{
+  background-image: url(Music.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 100px;
+  padding:5%;
+  font-family: 'Baloo Paaji 2', cursive; 
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+.hobbysector3:hover{
+    background-color: seashell;
+    filter:blur(1px) brightness(60%);
+}
+.hobbysector4{
+  background-image: url(Soccer.jpg);
+  background-size: cover;
+  color: white;
+  font-size: 100px;
+  padding:5%;
+  font-family: 'Baloo Paaji 2', cursive;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+.hobbysector4:hover{
+    background-color: seashell;
+    filter:blur(1px) brightness(60%);
+}
+.marquee{
+  padding: 0.5%;
+  font-size: 50px;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+.cursive{
+  font-family: 'Baloo Paaji 2', cursive;
+}
+.h1{
+  font-size: large;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+.backround{
+  text-align: center;
+}
+
+.horizontalline{
+  border: 0;
+  height: 0; 
+  width: 100%;
+}
+
+
+.hobbies{
+  font-size: 75px;
+  font-family: 'Baloo Paaji 2', cursive;
+  text-shadow: 5px 4px 4px rgb(20, 19, 19);
+}
+
+.aboutme{
+  font-size: 35px;
+  font-family: 'Baloo Paaji 2', cursive;
+}
+
+ 
+.div{
+  font-family: 'Baloo Paaji 2', cursive;
+  font-size: 100px;
+}
+.header2:hover{
+  color: black;
+  transition: 1s;
+  background-image: url(coders.jpg);
+}
+.footer{
+  background-image: url(footer-wall.jpg);
+  height: 20%;
+  box-shadow: 0 0 9px 5px black;
+  transition: 1s;
+
+}
+.footer:hover{
+  background-image: url(footer-wall2.jpg);
+  transition: 1s;
+}
+.s-m{
+  justify-content: space-around;
+  display: flex;
+  max-width: 700px;
+  position: relative;
+  top: 35%;
+  left: 21%;
+}
+.s-m a{
+  text-decoration:none;
+  font-size: 28px;
+  color: black;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  transition: 0.4s all;
+  line-height: 58px;
+  cursor: default;
+  background: white;
+  border-radius: 50%;
+}
+.s-m a:hover{
+  transform: scale(1.2);
+  color: white;
+  background: black;
+  box-shadow: 0 0 3px 3px black;
+}
